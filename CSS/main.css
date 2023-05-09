@@ -25,6 +25,12 @@ body {
         background-color:black;
     }
 
+    .border-dark {
+        border:2px solid white;
+        outline-style:solid;
+        outline-color:white;
+    }
+
     .btn {
         color:#9DA5AF;
     }

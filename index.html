@@ -27,26 +27,31 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="height:75px;">
         <a class="navbar-brand" href="index.html" style="padding-left:20px">Izzy</a>
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation" style="padding-right:10px;">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse bg-dark" id="nav" style="height:75px;">
        
             <div class="container">
-                <div class="row">
+                <div class="row gy-3">
 
                     <div class="col">
                         <div class="container">
 
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav gy-3">
                                 <li class="nav-item">
                                     <a class="btn btn-outline-light active" href="index.html" role="button">Home</a>
                                 </li>
+
+                                <br>
                 
                                 <li class="nav-item">
                                     <a class="btn btn-outline-light" href="portfolio.html" role="button">Portfolio</a>
                                 </li>
+
+                                <br>
                 
                                 <li class="nav-item">
                                     <a class="btn btn-outline-light" href="about.html" role="button">About</a>
@@ -59,21 +64,27 @@
                     <div class="col">
                         <div class="container">
 
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav gy-3">
                                 <li class="nav-item">
                                     <a class="btn btn-outline-info" href="https://www.linkedin.com/in/izzy-arcinue/" role="button">
                                         <i class="fa fa-linkedin-square"></i> LinkedIn</a>
                                 </li>
+
+                                <br>
                 
                                 <li class="nav-item">
                                     <a class="btn btn-outline-info" href="https://www.instagram.com/izzyarchersings/" role="button">
                                         <i class="fa fa-instagram"></i> Instagram</a>
                                 </li>
+
+                                <br>
                 
                                 <li class="navbar-item">
                                     <a class="btn btn-outline-info" href="https://twitter.com/IzzyArcherSings" role="button">
                                         <i class="fa fa-twitter-square"></i> Twitter</a>
                                 </li>
+
+                                <br>
 
                                 <li class="nav-item">
                                     <button class="btn btn-outline-light" role="button">
@@ -179,10 +190,12 @@
                     My passions include game development, competitive esports, and content creation.
                 </p>
 
-                <a href="portfolio.html" class="btn btn-outline-dark" role="button">My Work</a>
+                <div class="d-grid mx-auto col-4">
+                    <a href="portfolio.html" class="btn btn-outline-dark" role="button">My Work</a>
+                </div>
+
             </div>
             <div class="col position-relative">
-                <span class="border border-dark position-absolute bg-dark rounded" style="width:330px; height:420px; left:50px; top:10px; z-index:-1;"></span>
                 <img src="images/headshot 1.webp" style="width:350px; " class="border border-dark rounded">
             </div>
             <div class="col-2"></div>
@@ -254,12 +267,8 @@
 
         <br>
 
-        <div class="row">
-            <div class="col"></div>
-            <div class="col-2">
-                <a class="btn btn-outline-dark" role="button" href="portfolio.html">Complete Portfolio</a>
-            </div>
-            <div class="col"></div>
+        <div class="d-grid mx-auto col-2">
+            <a class="btn btn-outline-dark" role="button" href="portfolio.html">Complete Portfolio</a>
         </div>
 
     </div>
@@ -276,11 +285,11 @@
 
         <h1>Academic Background</h1>
 
-        <div class="row">
+        <div class="row gy-3 text-center">
             <div class="col">
-                <img src="images/University_of_Texas_at_Austin_seal.svg" alt="University of Texas Austin seal" style="width:100px;">
+                <img src="images/University_of_Texas_at_Austin_seal.svg" alt="University of Texas Austin seal" style="width:100px;" class="mx-auto">
             </div>
-            <div class="col-4">
+            <div class="col-lg-4">
                 <h3>University of Texas, <br> Austin</h3>
             </div>
             <div class="col">
@@ -296,15 +305,15 @@
 
         <br>
 
-        <div class="row">
+        <div class="row gy-3 text-center">
             <div class="col">
-                <img src="images/UC_Riverside_seal.svg" alt="University of California Riverside seal" style="width:100px;">
+                <img src="images/UC_Riverside_seal.svg" alt="University of California Riverside seal" style="width:100px;" class="mx-auto">
             </div>
-            <div class="col-4">
+            <div class="col-lg-4">
                 <h3>University of California, <br> Riverside</h3>
             </div>
             <div class="col">
-                <p>Bachelor's of Arts in Digital Production &amp Film</p>
+                <p>Bachelor's of Arts <br> in Digital Production &amp Film</p>
             </div>
             <div class="col">
                 <p>Riverside, California</p>
@@ -314,14 +323,9 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col"></div>
-            <div class="col-2">
-                <a class="btn btn-outline-dark" role="button" href="projects.html">Projects</a>
-            </div>
-            <div class="col"></div>
+        <div class="d-grid mx-auto col-4">
+            <a class="btn btn-outline-dark mx-auto" role="button" href="projects.html">Projects</a>
         </div>
-    </div>
 
     <div class="container">
         <div class="row">
@@ -344,8 +348,10 @@
                             <li>Adobe Premiere Pro</li>
                             <li>Adobe Aft Effects</li>
                         </ul>
-
-                        <a class="btn btn-outline-dark" role="button" href="#">Video Projects</a>
+                        
+                        <div class="d-grid mx-auto col-6">
+                            <a class="btn btn-outline-dark" role="button" href="#">Video Projects</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -358,7 +364,9 @@
                             <li>Content Management <br> Hootesuite <br> Mailchimp</li>
                         </ul>
 
-                        <a class="btn btn-outline-dark" role="button" href="#">Marketing</a>
+                        <div class="d-grid mx-auto col-6">
+                            <a class="btn btn-outline-dark" role="button" href="#">Marketing</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -373,7 +381,9 @@
                             <li>Narrative Design</li>
                         </ul>
 
-                        <a class="btn btn-outline-dark" role="button" href="#">Game Dev</a>
+                        <div class="d-grid mx-auto col-6">
+                            <a class="btn btn-outline-dark" role="button" href="#">Game Dev</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -391,7 +401,7 @@
 
     <div class="container">
 
-        <h1>Contact</h1>
+        <h1 class="text-center">Contact</h1>
 
         <div class="row">
             <div class="col"></div>
@@ -417,11 +427,9 @@
                     <br> 
                     
                     <div class="row">
-                        <div class="col"></div>
-                        <div class="col-2">
-                            <button class="btn btn-outline-dark">Submit</button>
+                        <div class="d-grid mx-auto col-4">
+                            <button class="btn btn-dark">Submit</button>
                         </div>
-                        <div class="col"></div>
                     </div>
                 </form>
             </div>

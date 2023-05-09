@@ -36,9 +36,9 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse bg-dark" id="nav" style="height:75px;">
+        <div class="collapse navbar-collapse bg-dark" style="height:75px;">
        
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row gy-3">
 
                     <div class="col">
@@ -103,27 +103,87 @@
 
         </div>
 
+            <div class="collapse navbar-collapse bg-dark" id="nav">
+                <div class="container d-md-none">
+
+                    <ul class="navbar-nav gy-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <br>
+        
+                        <li class="nav-item">
+                            <a class=" nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+
+                        <br>
+        
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">About</a>
+                        </li>
+
+                        <br>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-info" href="https://www.linkedin.com/in/izzy-arcinue/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i> LinkedIn</a>
+                        </li>
+
+                        <br>
+        
+                        <li class="nav-item">
+                            <a class="nav-link text-info" href="https://www.instagram.com/izzyarchersings/" target="_blank">
+                                <i class="fa fa-instagram"></i> Instagram</a>
+                        </li>
+
+                        <br>
+        
+                        <li class="navbar-item">
+                            <a class="nav-link text-info" href="https://twitter.com/IzzyArcherSings" target="_blank">
+                                <i class="fa fa-twitter-square"></i> Twitter</a>
+                        </li>
+
+                        <br>
+
+                        <li class="nav-item">
+                            <button class="btn btn-outline-light" role="button" onclick="toggleDarkMode();toggleButtonStyle()" id="modeButton">
+                                <i class="fa fa-moon-o"></i> Dark Mode</button> 
+                        </li>
+                    </ul>
+        
+                </div>
+            </div> 
+
         
     </nav>
 
     <div style="padding-top:100px"></div>
 
     <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>My Story</h1>
+            </div>
 
-        <h1>My Story</h1>
-
-        <p>
-            Still in the early stages of my career, I've made accomplishments and learned under two companies, 
-            Innovetive Petcare and LifeHikes, as a marketing intern. Because of my experiences, I was inspired to pursue 
-            digital marketing as a profession and enrolled in a bootcamp hosted by UT Austin, where I'm currently working 
-            on various projects related to digital and content strategy.
-        </p>
-
-        <p>
-            At UC Riverside, I studied film and served as the Vice President of the game development organization at 
-            University of California, Riverside. This experience gifted me the ability to lead a community of gaming enthusiasts, 
-            host writing and career-readiness workshops, and support the future generation of game developers.
-        </p>
+            <div class="col">
+                <div>
+                    <p>
+                        Still in the early stages of my career, I've made accomplishments and learned under two companies, 
+                        Innovetive Petcare and LifeHikes, as a marketing intern. Because of my experiences, I was inspired to pursue 
+                        digital marketing as a profession and enrolled in a bootcamp hosted by UT Austin, where I'm currently working 
+                        on various projects related to digital and content strategy.
+                    </p>
+        
+                    <p>
+                        At UC Riverside, I studied film and served as the Vice President of the game development organization at 
+                        University of California, Riverside. This experience gifted me the ability to lead a community of gaming enthusiasts, 
+                        host writing and career-readiness workshops, and support the future generation of game developers.
+                    </p>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
 
         <div class="row">
             <div class="col"></div>
@@ -132,30 +192,28 @@
             </div>
             <div class="col"></div>
         </div>
+    </div>
 
-    <div class="container">
-        <footer class="py-3 my-4 bg-dark text-white">
+    <footer class="py-3 my-4" style="padding-bottom:0px;">
+        <div class="container" style="padding-bottom:0px;">
+
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link px-2 text-muted">Home</a>
+                    <a href="index.html" class="nav-link px-2 text-dark"><i class="bi bi-house-door"></i> Home</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="about.html" class="nav-link px-2 text-muted">About</a>
+                    <a href="portfolio.html" class="nav-link px-2 text-dark">Portfolio</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="portfolio.html" class="nav-link px-2 text-muted">Portfolio</a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="projects.html" class="nav-link px-2 text-muted">Projects</a>
+                    <a href="about.html" class="nav-link px-2 text-dark">About</a>
                 </li>
             </ul>
 
-            <p class="text-center text-muted">&copy; 2023 Izzy Arcinue</p>
-        </footer>
-    </div>
+            <p class="text-center text-dark">&copy; 2023 Izzy Arcinue</p>
+        </div>
+    </footer>
 
 
     <!-- Optional JavaScript; choose one of the two! -->

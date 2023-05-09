@@ -36,9 +36,9 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse bg-dark" id="nav" style="height:75px;">
+        <div class="collapse navbar-collapse bg-dark" style="height:75px;">
        
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row gy-3">
 
                     <div class="col">
@@ -103,6 +103,58 @@
 
         </div>
 
+            <div class="collapse navbar-collapse bg-dark" id="nav">
+                <div class="container d-md-none">
+
+                    <ul class="navbar-nav gy-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <br>
+        
+                        <li class="nav-item">
+                            <a class=" nav-link active" href="portfolio.html">Portfolio</a>
+                        </li>
+
+                        <br>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+
+                        <br>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-info" href="https://www.linkedin.com/in/izzy-arcinue/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i> LinkedIn</a>
+                        </li>
+
+                        <br>
+        
+                        <li class="nav-item">
+                            <a class="nav-link text-info" href="https://www.instagram.com/izzyarchersings/" target="_blank">
+                                <i class="fa fa-instagram"></i> Instagram</a>
+                        </li>
+
+                        <br>
+        
+                        <li class="navbar-item">
+                            <a class="nav-link text-info" href="https://twitter.com/IzzyArcherSings" target="_blank">
+                                <i class="fa fa-twitter-square"></i> Twitter</a>
+                        </li>
+
+                        <br>
+
+                        <li class="nav-item">
+                            <button class="btn btn-outline-light" role="button" onclick="toggleDarkMode();toggleButtonStyle()" id="modeButton">
+                                <i class="fa fa-moon-o"></i> Dark Mode</button> 
+                        </li>
+                    </ul>
+        
+                </div>
+            </div> 
+
         
     </nav>
 
@@ -153,38 +205,27 @@
         </form>
     </div>
 
-    <div class="container">
-        <iframe src="index.html" style="width:100%; height:400px;"></iframe>
-    </div>
 
-    <div class="container">
-        <iframe src="https://donovanfrazier.com/portfolio.html" style="width:100%; height:400px;"></iframe>
-    </div>
+    <footer class="py-3 my-4" style="padding-bottom:0px;">
+        <div class="container" style="padding-bottom:0px;">
 
-
-    <div class="container">
-        <footer class="py-3 my-4 bg-dark text-white">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link px-2 text-muted">Home</a>
+                    <a href="index.html" class="nav-link px-2 text-dark"><i class="bi bi-house-door"></i> Home</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="about.html" class="nav-link px-2 text-muted">About</a>
+                    <a href="portfolio.html" class="nav-link px-2 text-dark">Portfolio</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="portfolio.html" class="nav-link px-2 text-muted">Portfolio</a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="projects.html" class="nav-link px-2 text-muted">Projects</a>
+                    <a href="about.html" class="nav-link px-2 text-dark">About</a>
                 </li>
             </ul>
 
-            <p class="text-center text-muted">&copy; 2023 Izzy Arcinue</p>
-        </footer>
-    </div>
+            <p class="text-center text-dark">&copy; 2023 Izzy Arcinue</p>
+        </div>
+    </footer>
 
 
 

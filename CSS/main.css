@@ -1,6 +1,5 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color:#F6EFE4;
 }
 
 .navbar-nav > li {
@@ -12,10 +11,23 @@ body {
     padding-top:20px;
     padding-bottom:20px;
 }
+/*
+.card {
+    background-color:#F6EFE4;
+}
+*/
 
 .dark-mode {
     background-color:black;
     color:white;
+
+    .card {
+        background-color:black;
+    }
+
+    .btn {
+        color:#9DA5AF;
+    }
 }
 .dark-mode {
     animation-name:text-fade;

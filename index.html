@@ -19,6 +19,10 @@
     <!-- Local css stylesheet -->
     <link href="CSS/main.css" rel="stylesheet">
 
+    <!-- Darkmode button scripts-->
+    <script src="javascript/darkMode.js"></script>
+    <script src="javascript/toggleButton.js"></script>
+
     <title>Izzy Arcinue</title>
   </head>
 
@@ -87,7 +91,7 @@
                                 <br>
 
                                 <li class="nav-item">
-                                    <button class="btn btn-outline-light" role="button">
+                                    <button class="btn btn-outline-light" role="button" onclick="toggleDarkMode();toggleButtonStyle()" id="modeButton">
                                         <i class="fa fa-moon-o"></i> Dark Mode</button> 
                                 </li>
                             </ul>
@@ -248,7 +252,7 @@
             </div>
             <div class="col">
                 <div class="card border-dark">
-                    <img class="card-img-top" src="images/Gamespawn Logo and Subtitle Color.svg" alt="Gamespawn logo">
+                    <img class="card-img-top mx-auto bg-dark rounded" src="images/Gamespawn Logo.svg" alt="Gamespawn logo" style="width:250px; padding-top:10px;">
 
                     <div class="card-body">
                         <h3 class="card-title text-center">Vice President</h3>

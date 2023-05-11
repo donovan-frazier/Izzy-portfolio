@@ -29,6 +29,11 @@ body {
     background-color:black;
     color:white;
 
+    .mode-button {
+        background-color:white;
+        color:black;
+    }
+
     .card {
         background-color:black;
     }

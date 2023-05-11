@@ -30,7 +30,7 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="height:75px;">
-        <a class="navbar-brand" href="index.html" style="padding-left:20px">Izzy</a>
+        <a class="navbar-brand" href="index.html" style="padding-left:20px">Izzy A</a>
 
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation" style="padding-right:10px;">
             <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
 
         <div class="collapse navbar-collapse bg-dark" style="height:75px;">
        
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row gy-3">
 
                     <div class="col">
@@ -64,7 +64,9 @@
                 
                         </div>
                     </div>
-                
+
+                    <div class="col"></div>
+
                     <div class="col">
                         <div class="container">
 
@@ -73,22 +75,6 @@
                                     <a class="btn btn-outline-info" href="https://www.linkedin.com/in/izzy-arcinue/" role="button" target="_blank">
                                         <i class="fa fa-linkedin-square"></i> LinkedIn</a>
                                 </li>
-
-                                <br>
-                
-                                <li class="nav-item">
-                                    <a class="btn btn-outline-info" href="https://www.instagram.com/izzyarchersings/" role="button" target="_blank">
-                                        <i class="fa fa-instagram"></i> Instagram</a>
-                                </li>
-
-                                <br>
-                
-                                <li class="navbar-item">
-                                    <a class="btn btn-outline-info" href="https://twitter.com/IzzyArcherSings" role="button" target="_blank">
-                                        <i class="fa fa-twitter-square"></i> Twitter</a>
-                                </li>
-
-                                <br>
 
                                 <li class="nav-item">
                                     <button class="btn btn-outline-light" role="button" onclick="toggleDarkMode();toggleButtonStyle()" id="modeButton">
@@ -103,57 +89,43 @@
 
         </div>
 
-            <div class="collapse navbar-collapse bg-dark" id="nav">
-                <div class="container d-md-none">
+        <div class="collapse navbar-collapse bg-dark position-fixed" id="nav" style="top:0;">
+            <div class="container d-md-none">
 
-                    <ul class="navbar-nav gy-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Home</a>
-                        </li>
+                <ul class="navbar-nav gy-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
 
-                        <br>
-        
-                        <li class="nav-item">
-                            <a class=" nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
+                    <br>
+    
+                    <li class="nav-item">
+                        <a class=" nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
 
-                        <br>
-        
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
+                    <br>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
 
-                        <br>
+                    <br>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-info" href="https://www.linkedin.com/in/izzy-arcinue/" target="_blank">
-                                <i class="fa fa-linkedin-square"></i> LinkedIn</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="https://www.linkedin.com/in/izzy-arcinue/" target="_blank">
+                            <i class="fa fa-linkedin-square"></i> LinkedIn</a>
+                    </li>
 
-                        <br>
-        
-                        <li class="nav-item">
-                            <a class="nav-link text-info" href="https://www.instagram.com/izzyarchersings/" target="_blank">
-                                <i class="fa fa-instagram"></i> Instagram</a>
-                        </li>
+                    <br>
 
-                        <br>
-        
-                        <li class="navbar-item">
-                            <a class="nav-link text-info" href="https://twitter.com/IzzyArcherSings" target="_blank">
-                                <i class="fa fa-twitter-square"></i> Twitter</a>
-                        </li>
-
-                        <br>
-
-                        <li class="nav-item">
-                            <button class="btn btn-outline-light" role="button" onclick="toggleDarkMode();toggleButtonStyle()" id="modeButton">
-                                <i class="fa fa-moon-o"></i> Dark Mode</button> 
-                        </li>
-                    </ul>
-        
-                </div>
-            </div> 
+                    <li class="nav-item">
+                        <button class="btn btn-outline-light" role="button" onclick="toggleDarkMode();toggleButtonStyle()" id="modeButton">
+                            <i class="fa fa-moon-o"></i> Dark Mode</button> 
+                    </li>
+                </ul>
+    
+            </div>
+        </div> 
 
         
     </nav>
@@ -178,10 +150,6 @@
 
                 <p>
                     My skills include social media coordinating, video editing, and content management.
-                </p>
-
-                <p>
-                    My passions include game development, competitive esports, and content creation.
                 </p>
 
                 <div class="d-grid mx-auto col-4">
@@ -345,7 +313,7 @@
         <h1>Academic Background</h1>
 
         <div class="card border-dark">
-            <div class="row gy-3 text-center" style="padding:10px;">
+            <div class="row gy-3 text-center align-items-center" style="padding:20px;">
                 <div class="col">
                     <img src="images/University_of_Texas_at_Austin_seal.svg" alt="University of Texas Austin seal" style="width:100px;" class="mx-auto">
                 </div>
@@ -367,7 +335,7 @@
         <br>
 
         <div class="card border-dark">
-            <div class="row gy-3 text-center" style="padding:10px;">
+            <div class="row gy-3 text-center align-items-center" style="padding:20px;">
                 <div class="col">
                     <img src="images/UC_Riverside_seal.svg" alt="University of California Riverside seal" style="width:100px;" class="mx-auto">
                 </div>
@@ -375,7 +343,7 @@
                     <h3>University of California, <br> Riverside</h3>
                 </div>
                 <div class="col">
-                    <p>Bachelor's of Arts <br> in Digital Production &amp Film</p>
+                    <p><b>Bachelor's of Arts</b> <br> in Digital Production &amp Film</p>
                 </div>
                 <div class="col">
                     <p>Riverside, California</p>
@@ -396,29 +364,27 @@
     </div>
 
     <div class="container">
-
-        <h1>Skills</h1>
-
-        <div class="row gy-3">            
+        <div class="row gy-3">
+            <div class="col"></div>
+            
             <div class="col">
-                <h3>Video Editing &amp Production</h3>
-                <ul>
-                    <li>Video Editing</li>
-                    <li>Digital production</li>
-                    <li>Creative Writing</li>
-                </ul>
+                <h1>Skills</h1>
             </div>
 
             <div class="col">
-                <h3>Digital Coordination</h3>
                 <ul>
                     <li>Content management</li>
                     <li>Asana</li>
                     <li>WordPress</li>
                     <li>Mailchimp</li>
                     <li>Hootsuite</li>
+                    <li>Video Editing</li>
+                    <li>Digital production</li>
+                    <li>Creative Writing</li>
                 </ul>
             </div>
+
+            <div class="col"></div>
         </div>
 
     </div>

@@ -32,7 +32,27 @@ body {
     }
 
     .btn {
-        color:#9DA5AF;
+        color:white;
+        border:1px solid #9DA5AF;
+        outline-style:solid;
+        outline-color:#9DA5AF;
+    }
+
+    .btn-outline-light:hover {
+        color:black;
+    }
+
+    .btn.active {
+        color:black;
+    }
+
+    .nav-link {
+        color:white;
+    }
+
+    .px-2 {
+        list-style:none;
+        color:white;
     }
 }
 .dark-mode {

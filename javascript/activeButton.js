@@ -1,6 +1,6 @@
 function activeButton() {
     var element = document.getElementByID("modeButton");
-    element.classList.add("active");
+    element.classList.toggle("active");
 }
 
 document.querySelector('.active').addEventListener('hover', () => {

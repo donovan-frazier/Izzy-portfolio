@@ -1,6 +1,7 @@
 function toggleDarkMode() {
     var element = document.body;
     element.classList.toggle("dark-mode");
+    sessionStorage.setItem('darkMode', true);
 }
 function toggleButtonStyle() {
     var element = document.getElementById("modeButton");

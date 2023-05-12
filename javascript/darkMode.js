@@ -1,7 +1,12 @@
 function toggleDarkMode() {
     var element = document.body;
     element.classList.toggle("dark-mode");
-    sessionStorage.setItem('darkMode', true);
+
+    if (sessionStorage.getItem('darkMode', false)) {
+        sessionStorage.setItem('darkMode', true)
+    } else {
+        sessionStorage.setItem('darkMode', false)
+    }
 }
 function toggleButtonStyle() {
     var element = document.getElementById("modeButton");

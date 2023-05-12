@@ -11,3 +11,9 @@ function changeListColor() {
     var element = document.body;
     element.classList.toggle('listColor');
 }
+
+fetch('darkMode.json')
+.then(response => response.json())
+.then(json => {
+    console.log(json);
+})
